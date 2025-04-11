@@ -1,10 +1,11 @@
 # ruaccent_rolling
 Альтернативные базы для ruaccent ( https://github.com/Den4ikAI/ruaccent )</br>
-Цель: увеличить охват словарных замен, чтобы снизить процент ошибок.
+Цель: увеличить охват словарных замен, исправлять ошибки между релизами.
 
 Файлы:</br>
-ruaccent/dictionary/accent.json.gz    -- словарь ударений</br>
-ruaccent/dictionary/yo_words.json.gz  -- словарь 'зеленый' --> 'зел+ёный' (и 'зелёный' --> 'зел+ёный')
+ruaccent/dictionary/accent.json.gz    — словарь ударений</br>
+ruaccent/dictionary/yo_words.json.gz  — словарь 'зеленый' --> 'зел+ёный' (и 'зелёный' --> 'зел+ёный')</br>
+ruaccent/dictionary/rules_engine/accents.json  — правила обработки омографов по грамматическому признаку
 
 Перед заменой, сделайте бэкап оригинальных файлов.
 
